@@ -1,0 +1,17 @@
+<div class="form-container" id="toolbar">
+    <header [@fallIn]="state">
+      <button (click)="logout()" class="basic-btn">Logout</button>
+    </header>
+    <div id="page" [@moveInLeft]="state">
+      <h2>Hey {{ name.displayName }}!</h2>
+
+      <div class="hedaer-area"> 
+        <div class="img-area">
+          <img src="assets/images/angular.svg" alt="Smiley face">
+        </div>
+        <div class="heading-area">
+            <h2> One framework. Mobile & desktop. </h2>
+        </div>
+      </div>
+    </div>   
+</div>
